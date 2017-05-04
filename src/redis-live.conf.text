@@ -1,0 +1,9 @@
+{
+"DataStoreType" : "redis",
+"RedisStatsServer" : {"server" : "10.136.40.61", "port" : 5000},
+"RedisServers":[
+        {"instance": "Master1", "server": "10.136.40.61", "port" : 6414},
+        {"instance": "Slave1", "server": "10.136.40.61", "port" : 10000},
+        {"instance": "Master2", "server": "10.136.40.61", "port" : 6415}
+]
+}
